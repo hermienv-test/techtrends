@@ -42,5 +42,5 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: hermienv-test/techtrends:latest
+          tags: hermienv/techtrends:latest
 
