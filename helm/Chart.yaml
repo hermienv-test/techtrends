@@ -1,0 +1,9 @@
+apiVersion: v1
+name: techtrends
+description: TechTrends Deploy
+keywords:
+- techtrends 
+version: 1.0.0
+maintainers:
+- name: hvanschalkwyk 
+  email: hermien.vanschalkwyk@gmail.com 
