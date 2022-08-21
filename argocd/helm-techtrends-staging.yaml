@@ -15,3 +15,4 @@ spec:
     path: kubernetes
     repoURL: https://github.com/hermien/techtrends
     targetRevision: HEAD
+  syncPolicy: {}
