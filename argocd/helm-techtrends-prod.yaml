@@ -12,7 +12,7 @@ spec:
     helm:
       valueFiles:
       - values-prod.yaml
-    path: kubernetes
+    path: helm
     repoURL: https://github.com/hermienv-test/techtrends
     targetRevision: HEAD
   syncPolicy: {}
