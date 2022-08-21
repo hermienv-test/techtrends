@@ -8,7 +8,7 @@ service:
   type: ClusterIP
 
 image:
-  repository: hermienv-test/techtrends 
+  repository: hermien/techtrends 
   tag: latest
   pullPolicy: IfNotPresent
 
