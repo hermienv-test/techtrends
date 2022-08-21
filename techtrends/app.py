@@ -1,5 +1,9 @@
 import sqlite3, logging, sys
-logging.basicConfig(format = '%(levelname)s:%(name)s:%(asctime)s, %(message)s', level = logging.DEBUG, datefmt='%d/%m/%Y, %H:%M:%S', stream=sys.stdout)
+
+stdout_handler =  logging.StreamHandler(sys.stdout)
+stderr_handler =  logging.StreamHandler(sys.stdout)
+handlers = [stderr_handler, stdout_handler]
+logging.basicConfig(format = '%(levelname)s:%(name)s:%(asctime)s, %(message)s', level = logging.DEBUG, datefmt='%d/%m/%Y, %H:%M:%S', handlers=handlers)
 
 from flask import Flask, jsonify, json, render_template, request, url_for, redirect, flash
 from werkzeug.exceptions import abort
