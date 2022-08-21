@@ -12,6 +12,6 @@ spec:
     helm:
       valueFiles:
       - values-prod.yaml
-    path: ../helm 
+    path: kubernetes
     repoURL: https://github.com/hermien/techtrends
     targetRevision: HEAD
