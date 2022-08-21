@@ -13,6 +13,6 @@ spec:
       valueFiles:
       - values-staging.yaml
     path: kubernetes
-    repoURL: https://github.com/hermien/techtrends
+    repoURL: https://github.com/hermienv-test/techtrends
     targetRevision: HEAD
   syncPolicy: {}
